@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "storybook-addon-react-router-v6": "^2.0.15"
+  }
+}
