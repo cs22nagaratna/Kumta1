@@ -1,5 +1,5 @@
 import React from "react";
-/* import { linkTo } from "@storybook/addon-links"; */
+import { linkTo } from "@storybook/addon-links";
 import { AiOutlineBell } from "react-icons/ai";
 import { LuUserRound } from "react-icons/lu";
 import { AiOutlineGlobal } from "react-icons/ai";
@@ -22,28 +22,10 @@ const HomePage = () => {
             <div className="global"><AiOutlineGlobal /></div>
           </div>
         </div>
-        {/* <div className="icons">
-          <div className="icons1">
-            <div className="home">
-              <div className="home1"><FiHome/></div>
-              <div className="home2">Home</div>
-            </div>
-            <div className="search11">
-              <div className="search111"><IoSearch/></div>
-              <div className="search112">Search</div>
-            </div>
-            <div className="add">
-              <div className="add1"><IoIosAddCircleOutline /></div>
-              <div className="add2">Add/Join</div>
-            </div>
-            <div className="alert">
-              <div className="alert1"><BiBulb/></div>
-              <div className="alert2">Alerts</div>
-            </div>
-          </div>
-        </div> */}
+        
+        
       </div>
-      {/* <button onClick={linkTo("Components/Kumta")}></button> */}
+      <button onClick={linkTo("Components/Kumta")}></button>
     </div>
   );
 };

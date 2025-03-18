@@ -58,11 +58,12 @@
     width: 100%;
     max-width: none;
     position: fixed;
+    padding-top: 100px;
 }
 .icons1{
     width: 100%;
     max-width: none;
-    height: 105px;
+    padding-top: 1000px;
     border: 1px solid #e0e0e0;
     display: flex;
 }
@@ -159,3 +160,7 @@
     padding-top: 10px;
 }
 
+.em img{
+    padding-bottom: 1000px;
+    padding-top: 1000px;
+}
