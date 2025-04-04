@@ -9,9 +9,6 @@ import { FiMic } from "react-icons/fi";
 import { FiHome } from "react-icons/fi";
 import { IoIosAddCircleOutline } from "react-icons/io";
 import { BiBulb } from "react-icons/bi";
-
-
-
 const Kumta = () => {
     return(
         <div className="container">
@@ -36,7 +33,7 @@ const Kumta = () => {
                     <div className="images1">
                         <div className="row1">
                             <div className="hospital">
-                                <img src="https://cbin.b-cdn.net/img/GO/Government-of-India01_9CFDJ_800x582.jpeg"/>
+                                <img src="https://pics.craiyon.com/2024-09-06/QDWqBYpMTZ-vJVFdzuN7GA.webp"/>
                             </div>
                             <div className="departments">
                                 <img src="https://cbin.b-cdn.net/img/GO/Government-of-India01_9CFDJ_800x582.jpeg" />
@@ -68,9 +65,10 @@ const Kumta = () => {
                         </div>
                         <div className="row2">
                             <div className="emergency">
-                                <button onClick={linkTo("Components/HomePage")}>
-                                    <img src="https://media.istockphoto.com/id/498429644/vector/empty-red-box-with-in-case-of-emergency.jpg?s=612x612&w=0&k=20&c=MADP-BKUiwEHcm959qrO1et81GU9FwskpAk0ALniXxA=" />
+                                <button onClick={linkTo("Components/Home")}>
+                                    <img src="https://media.istockphoto.com/id/498429644/vector/empty-red-box-with-in-case-of-emergency.jpg?s=612x612&w=0&k=20&c=MADP-BKUiwEHcm959qrO1et81GU9FwskpAk0ALniXxA="/>
                                 </button>
+                                <p>Emergency</p>
                             </div>
                             <div className="school-colleges">
                                 <img src="https://img.freepik.com/premium-photo/schoolboys-near-school-building-india_78361-13841.jpg" />

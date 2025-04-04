@@ -4,6 +4,9 @@
     display: flex;
     font-family: sans-serif;
     overflow: hidden;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 .boxes{
     width: 100%;
@@ -17,6 +20,10 @@
     border: 1px solid #e0e0e0;
     box-shadow: 1px 1px 1px #e0e0e0;
     position: fixed;
+    top: 0;
+    left: 0;
+    background-color: white;
+    z-index: 1000;
 }
 .namma-kumta img{
     width: 100%;
@@ -64,6 +71,7 @@
     align-items: center;
     justify-content: center;
     padding-top: 130px;
+    position: absolute;
 }
 .search1{
     margin-top: 10px;
@@ -110,6 +118,8 @@
     justify-content: center;
     margin-right: 20px;
     padding-bottom: 370px;
+    position: absolute;
+    padding-top: 220px;
 }
 .images1{
     width: 100%;
@@ -302,6 +312,20 @@
     margin: 15px;
     cursor: pointer;
 }
+button{
+    width: 100%;
+    max-width: 145px;
+    cursor: pointer;
+    
+}
+.emergency p{
+    position: relative;
+    bottom: 45px;
+    left: 20px;
+    font-weight: bolder;
+    font-size: 20px;
+    color: white;
+}
 .emergency:hover{
     width: 100%;
     transform: scale(1.1);
@@ -380,6 +404,8 @@
     width: 100%;
     max-width: none;
     position: fixed;
+    left: 0;
+    bottom: 0;
 }
 .icons1{
     width: 100%;
